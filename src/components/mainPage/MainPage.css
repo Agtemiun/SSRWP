@@ -1,0 +1,53 @@
+:root {
+  --panel-bg-color: #dfe4ea;
+  --container-bg-color: #f1f2f6;
+  --text-color: #2f3542;
+
+  --color-light: #666;
+  --color-lighter: #999;
+  --color-lightest: #bbb;
+  --color-dark: #333;
+  --color-darker: #222;
+  --border-light: #ccc;
+  --border-lighter: #ddd;
+}
+
+:root[theme='dark'] {
+  --panel-bg-color: #2f3542;
+  --container-bg-color: #57606f;
+  --text-color: #ced6e0;
+
+  --color-light: #aaa;
+  --color-lighter: #bbb;
+  --color-lightest: #ccc;
+  --color-dark: #eee;
+  --color-darker: #fff;
+  --border-light: #444;
+  --border-lighter: #555;
+}
+
+
+.main-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .menu {
+    flex: 0 0 20%; /* Левое меню занимает 1/5 ширины */
+    max-width: 300px; /* Чтобы на больших экранах не разрасталось слишком сильно */
+    min-width: 200px; /* И чтобы на маленьких экранах не сжималось слишком сильно */
+    max-height: 800px;
+    overflow-y: auto;
+    background-color: var(--container-bg-color);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--container-bg-color);
+  }
+  

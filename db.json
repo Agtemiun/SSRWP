@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1a1d",
+      "username": "010",
+      "password": "101",
+      "displayName": "Два",
+      "bio": "IVOXYGEN - it was September when I pushed you back"
+    },
+    {
+      "id": "3bc7",
+      "username": "101",
+      "password": "010",
+      "displayName": "Пять",
+      "bio": "IVOXYGEN - Giving Soul  "
+    },
+    {
+      "id": "7128",
+      "username": "admin1",
+      "password": "adm",
+      "role": "admin"
+    },
+    {
+      "id": "a282",
+      "username": "333",
+      "password": "222"
+    },
+    {
+      "id": "207e",
+      "username": "444",
+      "password": "333",
+      "role": "user"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "c229",
+      "name": "010",
+      "message": "сорок сорок плюс четыре сороки",
+      "createdAt": "2025-05-02T17:18:14.919Z"
+    },
+    {
+      "id": "50bc",
+      "name": "010",
+      "message": "vall1wood – ivoxygen - escape",
+      "createdAt": "2025-05-02T17:18:28.037Z"
+    },
+    {
+      "id": "f4ee",
+      "name": "101",
+      "message": "вайб",
+      "createdAt": "2025-05-02T17:18:55.691Z"
+    },
+    {
+      "id": "f62d",
+      "name": "010",
+      "message": "вааайб",
+      "createdAt": "2025-05-02T17:52:48.488Z"
+    },
+    {
+      "id": "5adb",
+      "name": null,
+      "message": "where am i",
+      "createdAt": "2025-05-02T19:27:29.917Z"
+    },
+    {
+      "id": "3538",
+      "name": "101",
+      "message": "idk",
+      "createdAt": "2025-05-02T19:48:47.014Z"
+    },
+    {
+      "id": "fdb5",
+      "name": null,
+      "message": "and now",
+      "createdAt": "2025-05-02T21:05:19.412Z"
+    },
+    {
+      "id": "00cc",
+      "name": null,
+      "message": "is a moment that you waiting for",
+      "createdAt": "2025-05-02T21:07:40.128Z"
+    }
+  ]
+}

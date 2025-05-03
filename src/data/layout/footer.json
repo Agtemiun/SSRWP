@@ -1,0 +1,25 @@
+{
+    "blocks": [
+      {
+        "title": "Компания",
+        "links": [
+          { "text": "О нас", "url": "/about" },
+          { "text": "Карьера", "url": "/careers" },
+          { "text": "Блог", "url": "/blog" },
+          { "text": "Контакты", "url": "/contact" },
+          { "text": "Пресса", "url": "/press" }
+        ]
+      },
+      {
+        "title": "Продукты",
+        "links": [
+          { "text": "Платформа", "url": "/platform" },
+          { "text": "API", "url": "/api" },
+          { "text": "Интеграции", "url": "/integrations" },
+          { "text": "Решения", "url": "/solutions" },
+          { "text": "Цены", "url": "/pricing" }
+        ]
+      }
+    ]
+  }
+  
